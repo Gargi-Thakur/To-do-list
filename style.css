@@ -1,0 +1,40 @@
+html {
+  font-family: "Candara";
+  text-align: center;
+  font-size: 25px;
+}
+
+body {
+  max-width: 500px;
+  margin: auto;
+  background-color: #fbeedf;
+}
+
+input {
+  width: 500px;
+  height: 80px;
+  font-size: 40px;
+  border-color: black;
+  background-color: #fbeedf;
+  font-family: "Candara";
+}
+
+input:focus {
+  outline: none;
+  font-family: "Candara";
+}
+
+li {
+  text-align: left;
+  font-size: 40px;
+  list-style: none;
+  margin: auto;
+  background-color: #e1897a;
+  border-style: solid;
+  border-color: #ffeedc;
+  border-width: 1px;
+}
+
+li:hover {
+  text-decoration: line-through;
+}
